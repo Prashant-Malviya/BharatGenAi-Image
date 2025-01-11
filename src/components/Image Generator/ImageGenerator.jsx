@@ -80,12 +80,12 @@ function ImageGenerator() {
         )}
       </motion.div>
 
-      <div className="flex flex-col md:flex-row items-center justify-center gap-4 w-full max-w-3xl p-3 m-3">
+      <div className="flex flex-col md:flex-row items-center justify-center gap-4 w-full max-w-3xl p-3 mx-3 md:mx-auto lg:mx-auto relative bottom-14 lg:left-14 md:left-14">
         <input
           type="text"
           ref={inputRef}
           placeholder="Describe what you want to see..."
-          className="w-full px-4 py-2 text-lg text-black rounded-md outline-none focus:ring-4 focus:ring-orange-500"
+          className="w-full px-4 py-2 text-lg text-black rounded-full outline-none focus:ring-4 focus:ring-orange-500"
         />
         <motion.button
           className="px-6 py-3 text-lg font-medium bg-orange-500 rounded-full hover:bg-orange-600 shadow-lg hover:shadow-orange-600/50"
